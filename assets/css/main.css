@@ -2119,97 +2119,6 @@ body {
     }
 }
 
-@media  (max-width: 390px){
-    .footer{
-        bottom: 90px !important;
-    }
-    .flotante{
-        bottom: 130px !important;
-        right: 2px !important;
-    }
-    .about--banner h2{
-        margin-top: -360px;
-        font-size: 25px;
-    }
-    .contact--lockup .modal {
-        padding: 5px 5px;
-    }
-    .contact--lockup{
-        width: 300px;
-    }
-    .about--banner a{
-        margin-top: 0px;
-    }
-    .about--banner img{
-        top: 150px;
-    }
-    .about--options {
-        margin-top: -160px;
-    }
-    .about--options>a{
-        height: 90px !important;
-    }
-    .about--banner h2::before {
-        top: 0px !important;
-    }
-    .about--banner h2::after {
-        left: 230px !important;
-    }
-
-}
-
-@media  (max-width: 375px){
-    .footer{
-        bottom: 0px !important;
-    }
-    .flotante{
-        bottom: 30px !important;
-        right: 2px !important;
-    }
-    .about--banner h2{
-        margin-top: -260px;
-    }
-
-}
-
-@media  (max-width: 360px){
-    .footer{
-        bottom: 60px !important;
-    }
-    .flotante{
-        bottom: 90px !important;
-        right: 2px !important;
-    }
-    .about--banner h2{
-        margin-top: -320px;
-        font-size: 25px;
-    }
-    .contact--lockup .modal {
-        padding: 5px 5px;
-    }
-    .contact--lockup{
-        width: 300px;
-    }
-    .about--banner a{
-        margin-top: 0px;
-    }
-    .about--banner img{
-        top: 150px;
-    }
-    .about--options {
-        margin-top: -160px;
-    }
-    .about--options>a{
-        height: 110px !important;
-    }
-    .about--banner h2::before {
-        top: 0px !important;
-    }
-    .about--banner h2::after {
-        left: 230px !important;
-    }
-}
-
 
 #menu {
     margin-top: 120px;
@@ -2774,5 +2683,107 @@ body {
     }
     #btnCloseCookies{
         font-size: 15px;
+    }
+}
+
+
+/* MEDIAS QUERIES, MOBILE RESPONSIVE */
+
+@media  (max-width: 390px){
+    .footer{
+        bottom: 90px !important;
+    }
+    .flotante{
+        bottom: 130px !important;
+        right: 2px !important;
+    }
+    .about--banner h2{
+        margin-top: -360px;
+        font-size: 25px;
+    }
+    .contact--lockup .modal {
+        padding: 5px 5px;
+    }
+    .contact--lockup{
+        width: 300px;
+    }
+    .about--banner a{
+        margin-top: 0px;
+    }
+    .about--banner img{
+        top: 150px;
+    }
+    .about--options {
+        margin-top: -160px;
+    }
+    .about--options>a{
+        height: 90px !important;
+    }
+    .about--banner h2::before {
+        top: 0px !important;
+    }
+    .about--banner h2::after {
+        left: 230px !important;
+    }
+    .work h2{
+        font-size: 35px;
+        margin-top: -100px;
+    }
+
+}
+
+@media  (max-width: 375px){
+    .footer{
+        bottom: 0px !important;
+    }
+    .flotante{
+        bottom: 30px !important;
+        right: 2px !important;
+    }
+    .about--banner h2{
+        margin-top: -260px;
+    }
+
+}
+
+@media  (max-width: 360px){
+    .footer{
+        bottom: 60px !important;
+    }
+    .flotante{
+        bottom: 90px !important;
+        right: 2px !important;
+    }
+    .about--banner h2{
+        margin-top: -320px;
+        font-size: 25px;
+    }
+    .contact--lockup .modal {
+        padding: 5px 5px;
+    }
+    .contact--lockup{
+        width: 300px;
+    }
+    .about--banner a{
+        margin-top: 0px;
+    }
+    .about--banner img{
+        top: 150px;
+    }
+    .about--options {
+        margin-top: -160px;
+    }
+    .about--options>a{
+        height: 110px !important;
+    }
+    .about--banner h2::before {
+        top: 0px !important;
+    }
+    .about--banner h2::after {
+        left: 230px !important;
+    }
+    .work h2{
+        font-size: 35px;
+        margin-top: -70px;
     }
 }
