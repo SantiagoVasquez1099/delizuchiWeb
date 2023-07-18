@@ -2729,6 +2729,23 @@ body {
         font-size: 35px;
         margin-top: -100px;
     }
+    .work--lockup {
+        margin-top: -20px;
+    }
+    .hire p{
+        font-size: 15px !important;
+    }
+    .galeria--banner h2{
+        font-size: 35px;
+        margin-top: -290px !important;
+    }
+    .slider-galeria {
+        width: 350px;
+        height: 350PX;
+    }
+    .galeria--banner h2::before {
+        top: 550px;
+    }
 
 }
 
@@ -2786,4 +2803,9 @@ body {
         font-size: 35px;
         margin-top: -70px;
     }
+    .galeria--banner h2{
+        font-size: 40px !important;
+        margin-top: -250px !important;
+    }
+    
 }
