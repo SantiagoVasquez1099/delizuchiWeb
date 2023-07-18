@@ -2743,6 +2743,7 @@ body {
     .slider-galeria {
         width: 350px;
         height: 350PX;
+        margin-top: -20px;
     }
     .galeria--banner h2::before {
         top: 550px;
