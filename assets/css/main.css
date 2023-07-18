@@ -2577,7 +2577,7 @@ body {
 }
 
 
-/* @media (max-width: 700px){
+@media (max-width: 700px){
     .footer{
         text-align: center;
         bottom: 130px;
@@ -2591,7 +2591,7 @@ body {
         font-size: 7px;
         padding: 2px 2px 2px 2px;
     }
-} */
+}
 
 
 /* MODAL */
@@ -2747,6 +2747,9 @@ body {
     .galeria--banner h2::before {
         top: 550px;
     }
+    .work--lockup .slider--item-center .slider--item-title{
+        margin-top: 10px;
+    }
 
 }
 
@@ -2807,6 +2810,9 @@ body {
     .galeria--banner h2{
         font-size: 40px !important;
         margin-top: -250px !important;
+    }
+    .work--lockup .slider--item-center .slider--item-title{
+        margin-top: 10px;
     }
     
 }
