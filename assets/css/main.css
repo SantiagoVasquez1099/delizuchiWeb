@@ -2119,15 +2119,31 @@ body {
     }
 }
 
-@media  (max-width: 393px){
+@media  (max-width: 390px){
     .footer{
-        bottom: 100px !important;
+        bottom: 90px !important;
     }
     .flotante{
         bottom: 130px !important;
     }
     .about--banner h2{
         margin-top: -300px;
+        font-size: 25px;
+    }
+    .contact--lockup .modal {
+        padding: 5px 5px;
+    }
+    .contact--lockup{
+        width: 300px;
+    }
+    .about--banner a{
+        margin-top: 0px;
+    }
+    .about--banner img{
+        top: 150px;
+    }
+    .about--options {
+        margin-top: -120px;
     }
 
 }
@@ -2148,7 +2164,7 @@ body {
 
 @media  (max-width: 360px){
     .footer{
-        bottom: 75px !important;
+        bottom: 60px !important;
     }
     .flotante{
         bottom: 90px !important;
