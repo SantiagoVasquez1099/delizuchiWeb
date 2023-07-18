@@ -2121,10 +2121,10 @@ body {
 
 @media  (max-width: 393px){
     .footer{
-        bottom: 0px !important;
+        bottom: 100px !important;
     }
     .flotante{
-        bottom: 30px !important;
+        bottom: 130px !important;
     }
     .about--banner h2{
         margin-top: -300px;
@@ -2138,11 +2138,22 @@ body {
     }
     .flotante{
         bottom: 30px !important;
+        right: 2px !important;
     }
     .about--banner h2{
         margin-top: -260px;
     }
 
+}
+
+@media  (max-width: 360px){
+    .footer{
+        bottom: 75px !important;
+    }
+    .flotante{
+        bottom: 90px !important;
+        right: 2px !important;
+    }
 }
 
 
@@ -2587,7 +2598,7 @@ body {
 @media (max-width: 375px) and (min-height: 600px){
     .footer{
         text-align: center;
-        bottom: 0px !important;
+        /* bottom: 0px !important; */
         z-index: 1;
         position: fixed !important;
         margin-left: 20px !important;
