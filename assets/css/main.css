@@ -2125,6 +2125,7 @@ body {
     }
     .flotante{
         bottom: 130px !important;
+        right: 2px !important;
     }
     .about--banner h2{
         margin-top: -360px;
@@ -2144,6 +2145,15 @@ body {
     }
     .about--options {
         margin-top: -160px;
+    }
+    .about--options>a{
+        height: 90px !important;
+    }
+    .about--banner h2::before {
+        top: 0px !important;
+    }
+    .about--banner h2::after {
+        left: 230px !important;
     }
 
 }
@@ -2171,7 +2181,7 @@ body {
         right: 2px !important;
     }
     .about--banner h2{
-        margin-top: -360px;
+        margin-top: -320px;
         font-size: 25px;
     }
     .contact--lockup .modal {
@@ -2188,6 +2198,15 @@ body {
     }
     .about--options {
         margin-top: -160px;
+    }
+    .about--options>a{
+        height: 110px !important;
+    }
+    .about--banner h2::before {
+        top: 0px !important;
+    }
+    .about--banner h2::after {
+        left: 230px !important;
     }
 }
 
